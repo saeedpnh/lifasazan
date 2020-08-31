@@ -1,0 +1,41 @@
+/* font converted using font-converter.net. thank you! */
+
+@font-face {
+  font-family: "aviny";
+  src: url("../fonts/aviny.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/aviny.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/aviny.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/aviny.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/aviny.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/aviny.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/aviny.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sanslight";
+  src: url("../fonts/IRANSansLight.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/IRANSansLight.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/IRANSansLight.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/IRANSansLight.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/IRANSansLight.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("./fonts/IRANSansLight.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/IRANSansLight.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
