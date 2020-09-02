@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html" ; charset="ISO-8859-1">
   <meta name="description" content="مجری اجرای انواع پروژه های ساختمانی و ویلا سازی">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -125,7 +123,7 @@
     </header>
 
 
-    <section class="container">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
           <section class="media mb-4 wow animated fadeInUp">
@@ -203,7 +201,7 @@
 
         </div>
       </div>
-    </section>
+    </div>
 
   </article>
 
@@ -217,7 +215,7 @@
       </div>
     </header>
 
-    <section class="container">
+    <div class="container">
       <div class="row">
         <div class="text-center">
           <div id="lightgallery" class="-text-center pb-5">
@@ -228,28 +226,27 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </article>
 
 
-  <article id="about" class="py-5">
+  <div id="about" class="py-5">
 
-    <section class="container">
+    <div class="container">
       <div class="row">
-        <section class="col-md-6 align-self-center">
+        <div class="col-md-6 align-self-center">
           <div class="about-photo">
-            <img src="img/gallery/g4.jpg" class="img-fluid p-1" alt="" width="" height="">
+            <img src="img/gallery/g4.jpg" class="img-fluid p-1" alt="عکس پروژه">
           </div>
-        </section>
+        </div>
 
         <section class="col-md-6">
           <h2 class="text-right mb-5 about-title"><span>درباره ما</span> </h2>
           <div id="accordion">
             <div class="card">
-              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+              <div class="card-header" id="headingOne" role="button" data-toggle="collapse" data-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
-                <div class="heading text-right" role="button" data-toggle="collapse" data-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
+                <div class="heading text-right">
                   <h5>مجموعه ی ما
                     <i class="fas fa-chevron-up float-left"></i>
                   </h5>
@@ -270,10 +267,9 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
+              <div class="card-header" id="headingTwo" role="button" data-toggle="collapse" data-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
-                <div class="heading text-right" role="button" data-toggle="collapse" data-target="#collapseTwo"
-                  aria-expanded="false" aria-controls="collapseTwo">
+                <div class="heading text-right">
                   <h5>خدمات ما
                     <i class="fas fa-chevron-down float-left"></i>
                   </h5>
@@ -289,10 +285,9 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
-                aria-expanded="false" aria-controls="collapseThree">
-                <div class="heading text-right" role="button" data-toggle="collapse" data-target="#collapseThree"
-                  aria-expanded="false" aria-controls="collapseThree">
+              <div class="card-header" id="headingThree" role="button" data-toggle="collapse"
+                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <div class="heading text-right">
                   <h5>هدف ما
                     <i class="fas fa-chevron-down float-left"></i>
                   </h5>
@@ -310,10 +305,9 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour"
+              <div class="card-header" id="headingFour" role="button" data-toggle="collapse" data-target="#collapseFour"
                 aria-expanded="false" aria-controls="collapseFour">
-                <div class="heading text-right" role="button" data-toggle="collapse" data-target="#collapseFour"
-                  aria-expanded="false" aria-controls="collapseFour">
+                <div class="heading text-right">
                   <h5>چرا انتخاب ما
                     <i class="fas fa-chevron-down float-left"></i>
                   </h5>
@@ -335,8 +329,8 @@
           </div>
         </section>
       </div>
-    </section>
-  </article>
+    </div>
+  </div>
 
 
   <article id="offers" class="py-5">
@@ -350,7 +344,7 @@
     <section class="container">
       <div class="row">
         <div class="col-12">
-          <div uk-slider="-center: -true">
+          <div data-uk-slider="">
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
               <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
                 <li>
@@ -400,10 +394,10 @@
                 </li>
               </ul>
 
-              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-                uk-slider-item="previous"></a>
-              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-                uk-slider-item="next"></a>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous=""
+                data-uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next=""
+                data-uk-slider-item="next"></a>
 
             </div>
 
@@ -419,14 +413,14 @@
 
 
 
-  <article id="contact">
-    <section class="container py-5">
+  <div id="contact">
+    <div class="container py-5">
       <div class="row align-items-center justify-content-center">
-        <section class="col-11 col-md-4 text-center contact-image-container">
+        <div class="col-11 col-md-4 text-center contact-image-container">
           <div class="wrap-call">
             <button class="button-call"><i class="fas fa-phone fa-2x"></i></button>
           </div>
-        </section>
+        </div>
         <section class="col-10 col-md-6 text-center pl-md-5 phone-number">
           <h2 class="text-light">فقط با یک تماس</h2>
           <p class="text-light">0912-3044990</p>
@@ -436,18 +430,17 @@
           <img src="img/instagram.png" alt="اینستاگرام" width="50" height="50">
         </section>
       </div>
-    </section>
-
-  </article>
+    </div>
+  </div>
 
   <footer id="copyright">
-    <section class="container">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-10 col sm-9 col-md-8 text-center py-1">
           <p class="text-light mb-0">کلیه حقوق این سایت برای شرکت لایف سازان محفوظ می باشد</p>
         </div>
       </div>
-    </section>
+    </div>
   </footer>
 
   <a id="scroll-top" class="d-flex align-items-center justify-content-center">
